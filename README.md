@@ -68,6 +68,10 @@ Interactions:
 * Press the space key to hide all edges. This facilitates selecting genes/spheres by gazing. Press the space key again to make edges reappear.
 * Click and drag red spheres to reposition them.
 
+## Help
+
+If you have any problem or suggestion please open an issue [here](https://github.com/bene200/immersenet/issues).
+
 ## About
 
 This project was created in the context of the Cold Spring Harbor Laboratory course 'Immersive Approaches to Biological Data Visualization'.
