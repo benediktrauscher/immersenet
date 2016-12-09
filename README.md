@@ -14,6 +14,14 @@ The build step will create a bundled file that can be included into any html doc
 ```{html}
 <script src='path/to/immersenet.min.js'></script>
 ```
+
+Alternatively you can include a pre-built version
+
+```{html}
+<script src='https://raw.githubusercontent.com/bene200/immersenet/master/build/immersenet.min.js'></script>
+```
+
+
 ## Embed in a webpage
 
 Create an empty div with id 'immersenet' and include the immersenet JavaScript bundle as shown above.
@@ -54,6 +62,7 @@ Immersenet visualises genetic interactions defined as a set of (currently) un-we
 
 Interactions:
 * Move around the visualisation using WASD keys
+* Hold the left-mouse button and move the mouse to adjust the camera.
 * Gaze at a gene-box to display the gene name
 * Gaze at a red sphere to teleport to it
 * Press the space key to hide all edges. This facilitates selecting genes/spheres by gazing. Press the space key again to make edges reappear.
