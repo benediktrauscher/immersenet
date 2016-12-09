@@ -33,7 +33,7 @@ aframe.registerComponent('listener-teleport', customComponents.teleporter);
 //globals
 const ITERATIONS_COUNT = 1000;
 $(`
-  <a-scene stats>
+  <a-scene>
     <a-sky color='black'></a-sky>
   </a-scene>
 `).appendTo($('#immersenet'));
