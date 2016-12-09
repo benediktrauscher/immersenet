@@ -1,3 +1,6 @@
+//load sample data
+let data = require('./sample_data/interactions.json');
+
 //external dependencies
 const aframe = require('aframe');
 const kframe = require('kframe');
@@ -27,11 +30,13 @@ aframe.registerComponent('line', customComponents.lineEntity);
 aframe.registerComponent('cursor-listener-gene', customComponents.selectGene);
 aframe.registerComponent('listener-teleport', customComponents.teleporter);
 
-//load sample data
-let data = require('./sample_data/interactions.json');
-
 //globals
 const ITERATIONS_COUNT = 1000;
+$(`
+  <a-scene stats>
+    <a-sky color='black'></a-sky>
+  </a-scene>
+`).appendTo($('#immersenet'));
 const scene = $('a-scene');
 
 //create graph
