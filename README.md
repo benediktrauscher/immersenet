@@ -1,5 +1,9 @@
 # immersenet - immersive visualisation of genetic interactions
 
+## Try it
+
+Click [here](https://rawgit.com/bene200/immersenet/master/test/index.html) to try the immersenet.
+
 ## Installation
 
 ```
